@@ -1,0 +1,15 @@
+# GitHub Actions 환경변수 샘플 파일
+# 이 파일은 GitHub 저장소의 Settings > Secrets and variables > Actions에서 설정해야 하는 환경변수들의 샘플입니다.
+# 실제 값으로 대체한 후 GitHub Secrets에 추가하세요.
+
+# AWS 배포를 위한 환경변수
+AWS_ACCESS_KEY_ID: "your-aws-access-key-id"
+AWS_SECRET_ACCESS_KEY: "your-aws-secret-access-key"
+AWS_REGION: "ap-northeast-2"
+
+# Cloudflare Pages 배포를 위한 환경변수
+CLOUDFLARE_API_TOKEN: "your-cloudflare-api-token"
+CLOUDFLARE_ACCOUNT_ID: "your-cloudflare-account-id"
+
+# 프론트엔드 환경변수
+REACT_APP_API_URL: "https://your-api-gateway-url.execute-api.us-east-1.amazonaws.com/prod/api" 
